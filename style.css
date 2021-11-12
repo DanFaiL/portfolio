@@ -1,0 +1,191 @@
+body{
+    background: linear-gradient(90deg, rgba(135,132,172,1) 7%, rgba(65,173,117,1) 36%, rgba(117,22,176,1) 77%);
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: white;
+}
+.Container{
+    position: relative;
+    left: 150px;
+    width: 75%;
+    height: 800px;
+    background-color:whitesmoke;
+    border-radius: 30px;
+}
+h2{
+    position: relative;
+    left:20px;
+    top:20px;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 70%;
+    background-color: white;
+    position: relative;
+    left: 10px;
+    padding-left: 20px;
+}
+div{
+    background-color: white;
+    border-radius: 10px;
+    width: 30%;
+}  
+.card-inner{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    width: 60%;
+    padding-top: 10%;
+    padding-left: 5%;
+} 
+.card1{
+    height: 22%;
+    box-shadow: 10px 5px 5px darkgray;
+}
+.card2{
+    height: 22%;
+    box-shadow: 10px 5px 5px darkgray;
+}
+.card3{
+    height: 22%;
+    box-shadow: 10px 5px 5px darkgray;
+}
+.card4{
+    height: 22%;
+    box-shadow: 10px 5px 5px darkgray;
+}
+.card5{
+    height: 22%;
+    box-shadow: 10px 5px 5px darkgray;
+}
+.card6{
+    height: 22%;
+    box-shadow: 10px 5px 5px darkgray;
+}
+a{
+    text-decoration: none;
+    font-weight: 700;
+    color:gray;
+    
+}
+.link{
+    text-align: center;
+    background-color: cornsilk;
+    border: 2px solid gray;
+    border-radius: 50px 50px 50px 50px;
+    position: relative;
+    left: 10px;
+}
+.card-inner2{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    width: 60%;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.card-inner3{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    width: 60%;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.card-inner4{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    width: 60%;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.card-inner5{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    width: 60%;
+    padding-top: 10%;
+    padding-left: 5%;
+}
+.card-inner6{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    width: 60%;
+    padding-top: 10%;
+    padding-left: 5%;
+
+}
+hr{
+    width: 87%;
+    height: 4px;
+    animation: boxi 1s linear infinite alternate-reverse running 3s forwards;
+}
+.cards:hover{
+background-color:#DCDCDC;
+}
+.Container:hover{
+background-color:#DCDCDC ;
+}
+h4{
+    color: lightslategray;
+    width: 30%;
+    border-radius: 50px 50px 50px 50px;
+    position: absolute;
+    position: relative;
+    left: 165px;
+    bottom: 35px;
+}
+h4:hover{
+    background-color: goldenrod;
+}
+.link:hover{
+    background-color: blanchedalmond;
+    box-shadow:4px 4px 8px 0px rgba(34, 60, 80, 0.2);;
+}
+@keyframes boxi{
+    0%{ background-color: #14d0ff;} 
+    50%{ background-color:#19a4ce ;}
+    100%{ background-color: #15647c;}
+}
+@media all (min-width: 992px) and (max-width: 1199.98px){
+    h2{
+        font-family: Trebuchet, sans-serif;
+    }
+    .card-inner{
+        font-family: Trebuchet, sans-serif;
+    }
+    .card-inner2{
+        font-family: Trebuchet, sans-serif;
+    }
+    .card-inner3{
+        font-family: Trebuchet, sans-serif;
+    }
+    .card-inner4{
+        font-family: Trebuchet, sans-serif;
+    }
+    .card-inner5{
+        font-family: Trebuchet, sans-serif;
+    }
+    .card-inner6{
+        font-family: Trebuchet, sans-serif;
+    }
+}
